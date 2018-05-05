@@ -6,7 +6,7 @@ version = __opapp_version()
 type = patient
 
 [description]
-Verlaufseintrag mit TARMED Tarifstruktur Browser. 
+Verlaufseintrag mit TARMED Tarifstruktur Browser.
 
 [developer]
 first_name = Beat
@@ -22,7 +22,7 @@ __opapp_include(readme.md)
 
 [template entry 6 7]
 __opapp_include(lib/polymer2/index_fullscreen.m4)
-__opapp_include(../org.optinomic.tarmed.browser/elements/tarmed.html)
+__opapp_include(org.optinomic.tarmed.browser/elements/tarmed.html)
 __opapp_include(elements/history.html)
 __opapp_include(elements/app.html)
 
@@ -32,5 +32,3 @@ __opapp_include(elements/app.html)
 
 
 [css]
-
-
